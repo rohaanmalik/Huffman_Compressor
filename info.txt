@@ -1,0 +1,10 @@
+Assignment 2 info
+By: Faiyaz Huq, Rasagya Monga, Rohaan Malik
+
+Some issues
+We have identified certain bug in our generate_tree_postorder which prevents generating a tree with complicated examples such as the following:
+>>> lst1 = [ReadNode(0, 1, 1, 1), ReadNode(0, 2, 0, 3), ReadNode(0, 4, 0 ,5)]
+The error we get is “NoneType has no attribute left”. After multiple attempts and due to time constraints we are unable to fix it. 
+
+Other than generate_tree_postorder, we believe that all of functions are working correctly however to actually compress a large file (size of 1.3MB +) our program takes at-least about 10 seconds compress. Decompression takes about half of it. 
+
